@@ -1,0 +1,1834 @@
+{
+  "users": [
+    {
+      "_id": "6afd36456a39170bfcd9a3b2",
+      "id": "usr-admin-01",
+      "name": "Master Admin",
+      "email": "admin@itsclear.in",
+      "phone": "+91 99999 88888",
+      "city": "Corporate HQ",
+      "password": "$2b$10$U4aVdQCmOHdLS8M2wIcjweQZUmgDFB45M5wB7TePYUhBnipL7GxbS",
+      "role": "admin",
+      "clearCoins": 10000,
+      "membershipTier": "Platinum Kisan Mitra",
+      "isEmailVerified": true,
+      "createdAt": "2026-11-18T05:23:17.677Z",
+      "updatedAt": "2026-11-18T05:23:17.677Z",
+      "__v": 0
+    },
+    {
+      "_id": "6b013cb295e09a923c293cdb",
+      "id": "usr-mwq1fw0bkikn",
+      "name": "Aman Verma",
+      "email": "cust_1795243186358@itsclear.in",
+      "googleId": "google-sub-1795243186358",
+      "picture": "https://lh3.googleusercontent.com/test.png",
+      "authProvider": "google",
+      "phone": "",
+      "city": "Lucknow",
+      "password": null,
+      "role": "customer",
+      "clearCoins": 250,
+      "membershipTier": "Silver Grain",
+      "isEmailVerified": true,
+      "createdAt": "2026-11-21T06:39:46.381Z",
+      "updatedAt": "2026-11-21T06:39:46.381Z",
+      "__v": 0
+    },
+    {
+      "_id": "6b013cb295e09a923c293cdc",
+      "id": "usr-mwq1fw3w7npr",
+      "name": "Vikram Singh",
+      "email": "emailotp_1795243186358@itsclear.in",
+      "picture": "",
+      "authProvider": "local",
+      "phone": "+91 99123 87217",
+      "city": "Lucknow",
+      "password": "$2b$10$9LRSGkFqaSY87zkkxokecOiuty84ohycWYP4JQLWpA5inxeJgQ0Z.",
+      "role": "customer",
+      "clearCoins": 250,
+      "membershipTier": "Silver Grain",
+      "isEmailVerified": true,
+      "createdAt": "2026-11-21T06:39:46.508Z",
+      "updatedAt": "2026-11-21T06:39:46.508Z",
+      "__v": 0
+    },
+    {
+      "_id": "6b013cb295e09a923c293cdd",
+      "id": "admin-usr-1795243186358",
+      "name": "Operations Director",
+      "email": "admin_1795243186358@itsclear.in",
+      "picture": "https://lh3.googleusercontent.com/test.png",
+      "authProvider": "google",
+      "phone": "+91 99999 11111",
+      "city": "Lucknow",
+      "password": null,
+      "role": "admin",
+      "clearCoins": 5000,
+      "membershipTier": "Silver Grain",
+      "isEmailVerified": true,
+      "createdAt": "2026-11-21T06:39:46.553Z",
+      "updatedAt": "2026-11-21T06:39:46.564Z",
+      "__v": 0,
+      "googleId": "google-admin-sub-1795243186358"
+    },
+    {
+      "_id": "6b013cb295e09a923c293cde",
+      "id": "usr-lim-1795243186358",
+      "name": "Limit Tester",
+      "email": "limits_1795243186358@itsclear.in",
+      "picture": "",
+      "authProvider": "local",
+      "phone": "+91 99111 22233",
+      "city": "Lucknow",
+      "password": null,
+      "role": "customer",
+      "clearCoins": 250,
+      "membershipTier": "Silver Grain",
+      "isEmailVerified": true,
+      "createdAt": "2026-11-21T06:39:46.775Z",
+      "updatedAt": "2026-11-21T06:39:46.775Z",
+      "__v": 0
+    },
+    {
+      "_id": "6b013cb295e09a923c293cdf",
+      "id": "usr-pw-1795243186358",
+      "name": "Rohan Gupta",
+      "email": "password_user_1795243186358@itsclear.in",
+      "picture": "https://lh3.googleusercontent.com/test.png",
+      "authProvider": "both",
+      "phone": "+91 98888 77777",
+      "city": "Lucknow",
+      "password": "$2b$10$nbdnDiTu8WLLJDiFfvr7DeUtokPXk69x7.BFYdXHjkNeeQc6w1dzS",
+      "role": "customer",
+      "clearCoins": 800,
+      "membershipTier": "Silver Grain",
+      "isEmailVerified": true,
+      "createdAt": "2026-11-21T06:39:46.881Z",
+      "updatedAt": "2026-11-21T06:39:46.961Z",
+      "__v": 0,
+      "googleId": "rohan-google-sub-1795243186358"
+    },
+    {
+      "_id": "6b013cecb40b335294aa74b1",
+      "id": "usr-mwq1h4hgy66s",
+      "name": "Aman Verma",
+      "email": "cust_1795243244003@itsclear.in",
+      "googleId": "google-sub-1795243244003",
+      "picture": "https://lh3.googleusercontent.com/test.png",
+      "authProvider": "google",
+      "phone": "",
+      "city": "Lucknow",
+      "password": null,
+      "role": "customer",
+      "clearCoins": 250,
+      "membershipTier": "Silver Grain",
+      "isEmailVerified": true,
+      "createdAt": "2026-11-21T06:40:44.021Z",
+      "updatedAt": "2026-11-21T06:40:44.021Z",
+      "__v": 0
+    },
+    {
+      "_id": "6b013cecb40b335294aa74b2",
+      "id": "usr-mwq1h4kscovq",
+      "name": "Vikram Singh",
+      "email": "emailotp_1795243244003@itsclear.in",
+      "picture": "",
+      "authProvider": "local",
+      "phone": "+91 99123 90061",
+      "city": "Lucknow",
+      "password": "$2b$10$XxPmWyNlGYlWUzUguOOOxOYYQDC8v09sMzyRGyJUFFuZuppCp61l.",
+      "role": "customer",
+      "clearCoins": 250,
+      "membershipTier": "Silver Grain",
+      "isEmailVerified": true,
+      "createdAt": "2026-11-21T06:40:44.140Z",
+      "updatedAt": "2026-11-21T06:40:44.140Z",
+      "__v": 0
+    },
+    {
+      "_id": "6b013cecb40b335294aa74b3",
+      "id": "admin-usr-1795243244003",
+      "name": "Operations Director",
+      "email": "admin_1795243244003@itsclear.in",
+      "picture": "https://lh3.googleusercontent.com/test.png",
+      "authProvider": "google",
+      "phone": "+91 99999 11111",
+      "city": "Lucknow",
+      "password": null,
+      "role": "admin",
+      "clearCoins": 5000,
+      "membershipTier": "Silver Grain",
+      "isEmailVerified": true,
+      "createdAt": "2026-11-21T06:40:44.176Z",
+      "updatedAt": "2026-11-21T06:40:44.184Z",
+      "__v": 0,
+      "googleId": "google-admin-sub-1795243244003"
+    },
+    {
+      "_id": "6b013cecb40b335294aa74b4",
+      "id": "usr-lim-1795243244003",
+      "name": "Limit Tester",
+      "email": "limits_1795243244003@itsclear.in",
+      "picture": "",
+      "authProvider": "local",
+      "phone": "+91 99111 22233",
+      "city": "Lucknow",
+      "password": null,
+      "role": "customer",
+      "clearCoins": 250,
+      "membershipTier": "Silver Grain",
+      "isEmailVerified": true,
+      "createdAt": "2026-11-21T06:40:44.301Z",
+      "updatedAt": "2026-11-21T06:40:44.301Z",
+      "__v": 0
+    },
+    {
+      "_id": "6b013cecb40b335294aa74b5",
+      "id": "usr-pw-1795243244003",
+      "name": "Rohan Gupta",
+      "email": "password_user_1795243244003@itsclear.in",
+      "picture": "https://lh3.googleusercontent.com/test.png",
+      "authProvider": "both",
+      "phone": "+91 98888 77777",
+      "city": "Lucknow",
+      "password": "$2b$10$RJ4OTCnuk6.vFQfoC2oL6uKWJeD8DQEchm4Ul0Uh2T4KSeS/MXbqm",
+      "role": "customer",
+      "clearCoins": 800,
+      "membershipTier": "Silver Grain",
+      "isEmailVerified": true,
+      "createdAt": "2026-11-21T06:40:44.448Z",
+      "updatedAt": "2026-11-21T06:40:44.531Z",
+      "__v": 0,
+      "googleId": "rohan-google-sub-1795243244003"
+    },
+    {
+      "_id": "6b013ec61d7f69cb16e19103",
+      "id": "usr-mwq1rahl4hs5",
+      "name": "Aman Verma",
+      "email": "cust_1795243718341@itsclear.in",
+      "googleId": "google-sub-1795243718341",
+      "picture": "https://lh3.googleusercontent.com/test.png",
+      "authProvider": "google",
+      "phone": "",
+      "city": "Lucknow",
+      "password": null,
+      "role": "customer",
+      "clearCoins": 250,
+      "membershipTier": "Silver Grain",
+      "isEmailVerified": true,
+      "createdAt": "2026-11-21T06:48:38.364Z",
+      "updatedAt": "2026-11-21T06:48:38.364Z",
+      "__v": 0
+    },
+    {
+      "_id": "6b013ec61d7f69cb16e19104",
+      "id": "usr-mwq1ral2lkfl",
+      "name": "Vikram Singh",
+      "email": "emailotp_1795243718341@itsclear.in",
+      "picture": "",
+      "authProvider": "local",
+      "phone": "+91 99123 70749",
+      "city": "Lucknow",
+      "password": "$2b$10$7BN9GKvXzTAmBU4ZBVTDBuMu/GA9DYQlxSk9sAacCP8GwmfP2C6MG",
+      "role": "customer",
+      "clearCoins": 250,
+      "membershipTier": "Silver Grain",
+      "isEmailVerified": true,
+      "createdAt": "2026-11-21T06:48:38.486Z",
+      "updatedAt": "2026-11-21T06:48:38.486Z",
+      "__v": 0
+    },
+    {
+      "_id": "6b013ec61d7f69cb16e19105",
+      "id": "admin-usr-1795243718341",
+      "name": "Operations Director",
+      "email": "admin_1795243718341@itsclear.in",
+      "picture": "https://lh3.googleusercontent.com/test.png",
+      "authProvider": "google",
+      "phone": "+91 99999 11111",
+      "city": "Lucknow",
+      "password": null,
+      "role": "admin",
+      "clearCoins": 5000,
+      "membershipTier": "Silver Grain",
+      "isEmailVerified": true,
+      "createdAt": "2026-11-21T06:48:38.520Z",
+      "updatedAt": "2026-11-21T06:48:38.535Z",
+      "__v": 0,
+      "googleId": "google-admin-sub-1795243718341"
+    },
+    {
+      "_id": "6b013ec61d7f69cb16e19106",
+      "id": "usr-lim-1795243718341",
+      "name": "Limit Tester",
+      "email": "limits_1795243718341@itsclear.in",
+      "picture": "",
+      "authProvider": "local",
+      "phone": "+91 99111 22233",
+      "city": "Lucknow",
+      "password": null,
+      "role": "customer",
+      "clearCoins": 250,
+      "membershipTier": "Silver Grain",
+      "isEmailVerified": true,
+      "createdAt": "2026-11-21T06:48:38.861Z",
+      "updatedAt": "2026-11-21T06:48:38.861Z",
+      "__v": 0
+    },
+    {
+      "_id": "6b013ec71d7f69cb16e19107",
+      "id": "usr-pw-1795243718341",
+      "name": "Rohan Gupta",
+      "email": "password_user_1795243718341@itsclear.in",
+      "picture": "https://lh3.googleusercontent.com/test.png",
+      "authProvider": "both",
+      "phone": "+91 98888 77777",
+      "city": "Lucknow",
+      "password": "$2b$10$K3G4I452dT8q8JYyV1q3.O9HVXYA2./nt3xH8axtl0YlW22GELyKS",
+      "role": "customer",
+      "clearCoins": 800,
+      "membershipTier": "Silver Grain",
+      "isEmailVerified": true,
+      "createdAt": "2026-11-21T06:48:39.047Z",
+      "updatedAt": "2026-11-21T06:48:39.131Z",
+      "__v": 0,
+      "googleId": "rohan-google-sub-1795243718341"
+    },
+    {
+      "_id": "6b013fe2c802a142d46267d5",
+      "id": "usr-mwq1xdixyyn3",
+      "name": "Aman Verma",
+      "email": "cust_1795244002214@itsclear.in",
+      "googleId": "google-sub-1795244002214",
+      "picture": "https://lh3.googleusercontent.com/test.png",
+      "authProvider": "google",
+      "phone": "",
+      "city": "Lucknow",
+      "password": null,
+      "role": "customer",
+      "clearCoins": 250,
+      "membershipTier": "Silver Grain",
+      "isEmailVerified": true,
+      "createdAt": "2026-11-21T06:53:22.234Z",
+      "updatedAt": "2026-11-21T06:53:22.234Z",
+      "__v": 0
+    },
+    {
+      "_id": "6b013fe2c802a142d46267d6",
+      "id": "usr-mwq1xdm7p8p7",
+      "name": "Vikram Singh",
+      "email": "emailotp_1795244002214@itsclear.in",
+      "picture": "",
+      "authProvider": "local",
+      "phone": "+91 99123 26898",
+      "city": "Lucknow",
+      "password": "$2b$10$pyWGPprLzC755JHRYgsi4eLurbWRiB18skQ9G7uUKUj2R9tVBudLy",
+      "role": "customer",
+      "clearCoins": 250,
+      "membershipTier": "Silver Grain",
+      "isEmailVerified": true,
+      "createdAt": "2026-11-21T06:53:22.352Z",
+      "updatedAt": "2026-11-21T06:53:22.352Z",
+      "__v": 0
+    },
+    {
+      "_id": "6b013fe2c802a142d46267d7",
+      "id": "admin-usr-1795244002214",
+      "name": "Operations Director",
+      "email": "admin_1795244002214@itsclear.in",
+      "picture": "https://lh3.googleusercontent.com/test.png",
+      "authProvider": "google",
+      "phone": "+91 99999 11111",
+      "city": "Lucknow",
+      "password": null,
+      "role": "admin",
+      "clearCoins": 5000,
+      "membershipTier": "Silver Grain",
+      "isEmailVerified": true,
+      "createdAt": "2026-11-21T06:53:22.390Z",
+      "updatedAt": "2026-11-21T06:53:22.404Z",
+      "__v": 0,
+      "googleId": "google-admin-sub-1795244002214"
+    },
+    {
+      "_id": "6b013fe2c802a142d46267d8",
+      "id": "usr-lim-1795244002214",
+      "name": "Limit Tester",
+      "email": "limits_1795244002214@itsclear.in",
+      "picture": "",
+      "authProvider": "local",
+      "phone": "+91 99111 22233",
+      "city": "Lucknow",
+      "password": null,
+      "role": "customer",
+      "clearCoins": 250,
+      "membershipTier": "Silver Grain",
+      "isEmailVerified": true,
+      "createdAt": "2026-11-21T06:53:22.542Z",
+      "updatedAt": "2026-11-21T06:53:22.542Z",
+      "__v": 0
+    },
+    {
+      "_id": "6b013fe2c802a142d46267d9",
+      "id": "usr-pw-1795244002214",
+      "name": "Rohan Gupta",
+      "email": "password_user_1795244002214@itsclear.in",
+      "picture": "https://lh3.googleusercontent.com/test.png",
+      "authProvider": "both",
+      "phone": "+91 98888 77777",
+      "city": "Lucknow",
+      "password": "$2b$10$f7mp3ORMM/v4wpPgdvOjyOxtbOvIamjgVeKMesqrodvBajf1R5WL6",
+      "role": "customer",
+      "clearCoins": 800,
+      "membershipTier": "Silver Grain",
+      "isEmailVerified": true,
+      "createdAt": "2026-11-21T06:53:22.691Z",
+      "updatedAt": "2026-11-21T06:53:22.776Z",
+      "__v": 0,
+      "googleId": "rohan-google-sub-1795244002214"
+    },
+    {
+      "_id": "6b01463d0e7547c223bc72ea",
+      "id": "usr-mwq2w9al9dcv",
+      "name": "Aman Verma",
+      "email": "cust_1795245629695@itsclear.in",
+      "googleId": "google-sub-1795245629695",
+      "picture": "https://lh3.googleusercontent.com/test.png",
+      "authProvider": "google",
+      "phone": "",
+      "city": "Lucknow",
+      "password": null,
+      "role": "customer",
+      "clearCoins": 250,
+      "membershipTier": "Silver Grain",
+      "isEmailVerified": true,
+      "createdAt": "2026-11-21T07:20:29.711Z",
+      "updatedAt": "2026-11-21T07:20:29.711Z",
+      "__v": 0
+    },
+    {
+      "_id": "6b01463d0e7547c223bc72eb",
+      "id": "usr-mwq2w9dy6kv0",
+      "name": "Vikram Singh",
+      "email": "emailotp_1795245629695@itsclear.in",
+      "picture": "",
+      "authProvider": "local",
+      "phone": "+91 99123 99645",
+      "city": "Lucknow",
+      "password": "$2b$10$7Nh3DmVZjn4MzI/HIbnZFu6cSZpLIpxxZ8G6Hc1rCm9XLEdD5Aizu",
+      "role": "customer",
+      "clearCoins": 250,
+      "membershipTier": "Silver Grain",
+      "isEmailVerified": true,
+      "createdAt": "2026-11-21T07:20:29.830Z",
+      "updatedAt": "2026-11-21T07:20:29.830Z",
+      "__v": 0
+    },
+    {
+      "_id": "6b01463d0e7547c223bc72ec",
+      "id": "admin-usr-1795245629695",
+      "name": "Operations Director",
+      "email": "admin_1795245629695@itsclear.in",
+      "picture": "https://lh3.googleusercontent.com/test.png",
+      "authProvider": "google",
+      "phone": "+91 99999 11111",
+      "city": "Lucknow",
+      "password": null,
+      "role": "admin",
+      "clearCoins": 5000,
+      "membershipTier": "Silver Grain",
+      "isEmailVerified": true,
+      "createdAt": "2026-11-21T07:20:29.867Z",
+      "updatedAt": "2026-11-21T07:20:29.876Z",
+      "__v": 0,
+      "googleId": "google-admin-sub-1795245629695"
+    },
+    {
+      "_id": "6b01463e0e7547c223bc72ed",
+      "id": "usr-lim-1795245629695",
+      "name": "Limit Tester",
+      "email": "limits_1795245629695@itsclear.in",
+      "picture": "",
+      "authProvider": "local",
+      "phone": "+91 99111 22233",
+      "city": "Lucknow",
+      "password": null,
+      "role": "customer",
+      "clearCoins": 250,
+      "membershipTier": "Silver Grain",
+      "isEmailVerified": true,
+      "createdAt": "2026-11-21T07:20:30.396Z",
+      "updatedAt": "2026-11-21T07:20:30.396Z",
+      "__v": 0
+    },
+    {
+      "_id": "6b01463e0e7547c223bc72ee",
+      "id": "usr-pw-1795245629695",
+      "name": "Rohan Gupta",
+      "email": "password_user_1795245629695@itsclear.in",
+      "picture": "https://lh3.googleusercontent.com/test.png",
+      "authProvider": "both",
+      "phone": "+91 98888 77777",
+      "city": "Lucknow",
+      "password": "$2b$10$F8l4Aw3YETo2UyNtu5FVmOzGZ98NMoRUW5Fp7yOArbSwYvz7J7Fh6",
+      "role": "customer",
+      "clearCoins": 800,
+      "membershipTier": "Silver Grain",
+      "isEmailVerified": true,
+      "createdAt": "2026-11-21T07:20:30.533Z",
+      "updatedAt": "2026-11-21T07:20:30.612Z",
+      "__v": 0,
+      "googleId": "rohan-google-sub-1795245629695"
+    }
+  ],
+  "loginotps": [],
+  "orders": [],
+  "reviews": [],
+  "coupons": [
+    {
+      "_id": "6afd36456a39170bfcd9a3b3",
+      "code": "CLEAR50",
+      "discountType": "percentage",
+      "discountValue": 10,
+      "minOrderValue": 499,
+      "description": "10% OFF on all fresh stoneground orders above ₹499",
+      "active": true,
+      "createdAt": "2026-11-18T05:23:17.707Z",
+      "__v": 0,
+      "updatedAt": "2026-11-21T07:57:11.711Z"
+    },
+    {
+      "_id": "6afd36456a39170bfcd9a3b4",
+      "code": "PURITY100",
+      "discountType": "flat",
+      "discountValue": 100,
+      "minOrderValue": 799,
+      "description": "Flat ₹100 OFF on family sacks above ₹799",
+      "active": true,
+      "createdAt": "2026-11-18T05:23:17.707Z",
+      "__v": 0,
+      "updatedAt": "2026-11-21T07:57:11.752Z"
+    },
+    {
+      "_id": "6afd36456a39170bfcd9a3b5",
+      "code": "KHAPLIVIP",
+      "discountType": "percentage",
+      "discountValue": 15,
+      "minOrderValue": 999,
+      "description": "15% VIP discount on monthly orders",
+      "active": true,
+      "createdAt": "2026-11-18T05:23:17.707Z",
+      "__v": 0,
+      "updatedAt": "2026-11-21T07:57:11.759Z"
+    },
+    {
+      "_id": "6afd7b1f9ee7fe6517d38fff",
+      "code": "FIRSTCHAKKI",
+      "__v": 0,
+      "active": true,
+      "createdAt": "2026-11-18T10:17:03.501Z",
+      "description": "Flat ₹50 OFF on your first fresh chakki order above ₹299",
+      "discountType": "flat",
+      "discountValue": 50,
+      "minOrderValue": 299,
+      "updatedAt": "2026-11-21T07:57:11.736Z"
+    },
+    {
+      "_id": "6afd7b1f9ee7fe6517d39000",
+      "code": "FREESHIP",
+      "__v": 0,
+      "active": true,
+      "createdAt": "2026-11-18T10:17:03.526Z",
+      "description": "Free Express Delivery on orders above ₹199",
+      "discountType": "flat",
+      "discountValue": 49,
+      "minOrderValue": 199,
+      "updatedAt": "2026-11-21T07:57:11.746Z"
+    },
+    {
+      "_id": "6afd7b1f9ee7fe6517d39001",
+      "code": "PUREGRAIN",
+      "__v": 0,
+      "active": true,
+      "createdAt": "2026-11-18T10:17:03.544Z",
+      "description": "Flat ₹75 OFF on pure stoneground atta orders above ₹599",
+      "discountType": "flat",
+      "discountValue": 75,
+      "minOrderValue": 599,
+      "updatedAt": "2026-11-21T07:57:11.766Z"
+    },
+    {
+      "_id": "6afd7b1f9ee7fe6517d39002",
+      "code": "PROTEINMAX",
+      "__v": 0,
+      "active": true,
+      "createdAt": "2026-11-18T10:17:03.552Z",
+      "description": "12% OFF on High Protein Atta packs above ₹699",
+      "discountType": "percentage",
+      "discountValue": 12,
+      "minOrderValue": 699,
+      "updatedAt": "2026-11-21T07:57:11.772Z"
+    }
+  ],
+  "pendingregistrations": [],
+  "settings": [],
+  "products": [
+    {
+      "_id": "6afd36456a39170bfcd9a3a6",
+      "id": "itsclear-khapli-ancient",
+      "name": "itsclear Khapli Atta",
+      "subTitle": "100% Khapli Wheat Ancient Flour (Diabetic Friendly)",
+      "category": "khapli",
+      "tagline": "100% Khapli Wheat • Ancient Emmer Grain • Naturally Low-GI",
+      "description": "Milled from 100% pure ancient Khapli (Emmer) wheat grains as depicted on our packaging. Naturally low in glycemic index, high in coarse fiber, and packed with ancient minerals. Ideal for diabetic glucose balance, gut vitality, and soft rotis without any preservatives, maida, or bleaching chemicals.",
+      "origin": "Solapur & Sangli, Maharashtra",
+      "harvestSeason": "Spring 2026",
+      "labTestBatch": "CLR-KH-8841",
+      "purityScore": 100,
+      "featured": true,
+      "rating": 5,
+      "reviewCount": 342,
+      "images": [
+        "/images/products/khapli-single.jpg",
+        "/images/products/khapli-single-cutout.png",
+        "/images/products/khapli-bori-only.png"
+      ],
+      "modelType": "atta-kraft",
+      "themeColor": "#0b192c",
+      "secondaryColor": "#d97706",
+      "flourType": "100% Khapli Wheat (Triticum Dicoccum)",
+      "millingSpeed": "Cold Stone Ground (<27°C)",
+      "rotiSoftnessScore": 10,
+      "composition": "100% Ancient Emmer Khapli Wheat",
+      "packageBadges": [
+        "100% Khapli Wheat",
+        "High Protein",
+        "Rich in Nutrition",
+        "Good for Health",
+        "Natural Ingredients"
+      ],
+      "variants": [
+        {
+          "id": "var-kh1-1k",
+          "size": "1 kg Net Weight",
+          "weightInKg": 1,
+          "price": 95,
+          "originalPrice": 115,
+          "inStock": true,
+          "stockCount": 50
+        },
+        {
+          "id": "var-kh1-2k",
+          "size": "2 kg Net Weight",
+          "weightInKg": 2,
+          "price": 185,
+          "originalPrice": 220,
+          "inStock": true,
+          "stockCount": 45
+        },
+        {
+          "id": "var-kh1-5k",
+          "size": "5 kg Net Weight (Carry Handle)",
+          "weightInKg": 5,
+          "price": 440,
+          "originalPrice": 520,
+          "inStock": true,
+          "stockCount": 85
+        },
+        {
+          "id": "var-kh1-10k",
+          "size": "10 kg Net Weight (Carry Handle)",
+          "weightInKg": 10,
+          "price": 849,
+          "originalPrice": 999,
+          "inStock": true,
+          "stockCount": 40
+        }
+      ],
+      "nutrition": {
+        "energy": "348 kcal",
+        "protein": "14.5 g",
+        "carbs": "65.4 g",
+        "fat": "2.1 g",
+        "fiber": "14.2 g",
+        "iron": "5.2 mg",
+        "glycemicIndex": "Low GI (42)"
+      },
+      "benefits": [
+        "100% Khapli Wheat with low glycemic index prevents sugar spikes",
+        "Gentle water-soluble gluten structure — zero bloating or heaviness",
+        "Rich in polyphenols and magnesium for metabolic health",
+        "Traditional heirloom grain grown with zero chemical pesticides"
+      ],
+      "certifications": [
+        "Ancient Grain Seal",
+        "Low-GI Certified",
+        "Non-GMO Heritage Grain",
+        "FSSAI Approved"
+      ],
+      "createdAt": "2026-11-18T05:23:17.363Z",
+      "updatedAt": "2026-11-21T05:38:20.097Z",
+      "__v": 1
+    },
+    {
+      "_id": "6afd36456a39170bfcd9a3a7",
+      "id": "itsclear-high-protein",
+      "name": "itsclear Premium High Protein Atta",
+      "subTitle": "High Protein Whole Wheat Flour (36% Protine)",
+      "category": "multigrain",
+      "tagline": "36% Protine • 36g Protein Per 100g • Whole Wheat, Soya & Peanut",
+      "description": "itsclear Premium High Protein Whole Wheat Flour is crafted with exactly 36g protein per 100g, blending 60% whole wheat atta, 30% golden soya flour, and 10% roasted peanuts. Formulated to build stronger muscles, support immunity, deliver natural goodness, and promote heart health with zero added maida.",
+      "origin": "Malwa & Indore, Madhya Pradesh",
+      "harvestSeason": "Harvest 2026",
+      "labTestBatch": "CLR-HP-9204",
+      "purityScore": 100,
+      "featured": true,
+      "rating": 4.9,
+      "reviewCount": 298,
+      "images": [
+        "/images/products/protein-single.jpg",
+        "/images/products/protein-single-cutout.png",
+        "/images/products/protein-bori-only.png"
+      ],
+      "modelType": "atta-sack",
+      "themeColor": "#1c1917",
+      "secondaryColor": "#f59e0b",
+      "flourType": "60% Whole Wheat + 30% Soya + 10% Peanut",
+      "millingSpeed": "Precision Emery Stone Milling (<28°C)",
+      "rotiSoftnessScore": 9,
+      "composition": "60% Wheat Atta • 30% Soya Flour • 10% Peanut",
+      "packageBadges": [
+        "36% Protine",
+        "Stronger Muscles",
+        "Immunity Support",
+        "Natural Goodness",
+        "Promotes Heart Health"
+      ],
+      "variants": [
+        {
+          "id": "var-hp-1k",
+          "size": "1 kg Trial Pouch",
+          "weightInKg": 1,
+          "price": 110,
+          "originalPrice": 130,
+          "inStock": true,
+          "stockCount": 60
+        },
+        {
+          "id": "var-hp-2k",
+          "size": "2 kg Kitchen Pack",
+          "weightInKg": 2,
+          "price": 210,
+          "originalPrice": 250,
+          "inStock": true,
+          "stockCount": 50
+        },
+        {
+          "id": "var-hp-5k",
+          "size": "5 kg Power Sack",
+          "weightInKg": 5,
+          "price": 495,
+          "originalPrice": 599,
+          "inStock": true,
+          "stockCount": 120
+        },
+        {
+          "id": "var-hp-10k",
+          "size": "10 kg Family Sack",
+          "weightInKg": 10,
+          "price": 950,
+          "originalPrice": 1150,
+          "inStock": true,
+          "stockCount": 35
+        }
+      ],
+      "nutrition": {
+        "energy": "372 kcal",
+        "protein": "36.0 g",
+        "carbs": "48.2 g",
+        "fat": "5.8 g",
+        "fiber": "12.4 g",
+        "iron": "6.4 mg",
+        "glycemicIndex": "Medium-Low GI (48)"
+      },
+      "benefits": [
+        "Clinically measured 36g plant protein per 100g for active muscle recovery",
+        "Roasted peanut meal delivers natural heart-healthy mono-unsaturated lipids",
+        "De-fatted soya provides rich essential amino acid profile without digestive load",
+        "Whole grain wheat base retains natural bran fiber for steady digestive fullness"
+      ],
+      "certifications": [
+        "High-Protein Certified",
+        "FSSAI Approved Lab Batch",
+        "Zero Maida Guarantee",
+        "Zero Chemical Bleach"
+      ],
+      "createdAt": "2026-11-18T05:23:17.365Z",
+      "updatedAt": "2026-11-18T05:23:17.365Z",
+      "__v": 0
+    },
+    {
+      "_id": "6afd36456a39170bfcd9a3a8",
+      "id": "itsclear-khapli-family-pack",
+      "name": "itsclear Khapli Atta (Family Pack)",
+      "subTitle": "100% Ancient Khapli Wheat — Available in 1kg, 2kg, 5kg, 10kg",
+      "category": "khapli",
+      "tagline": "Ancient Grain • Pure Stoneground • 4 Family Size Variants",
+      "description": "The authentic itsclear Khapli Atta range as showcased across all size variants. Stoneground under 27°C on emery stones. Naturally unhybridized grain from Sangli and Solapur farmers.",
+      "origin": "Solapur & Sangli, Maharashtra",
+      "harvestSeason": "Spring 2026",
+      "labTestBatch": "CLR-KH-8842",
+      "purityScore": 100,
+      "featured": true,
+      "rating": 4.9,
+      "reviewCount": 184,
+      "images": [
+        "/images/products/khapli-sizes-grid.jpg",
+        "/images/products/khapli-sizes-grid-cutout.png"
+      ],
+      "modelType": "atta-kraft",
+      "themeColor": "#0b192c",
+      "secondaryColor": "#d97706",
+      "flourType": "100% Ancient Emmer Khapli Grain",
+      "millingSpeed": "Cold Stone Ground (<27°C)",
+      "rotiSoftnessScore": 10,
+      "composition": "100% Pure Khapli Grain",
+      "packageBadges": [
+        "100% Khapli Wheat",
+        "High Protein",
+        "Rich in Nutrition",
+        "Natural Ingredients"
+      ],
+      "variants": [
+        {
+          "id": "var-khg-1k",
+          "size": "1 kg Pack",
+          "weightInKg": 1,
+          "price": 95,
+          "originalPrice": 115,
+          "inStock": true,
+          "stockCount": 80
+        },
+        {
+          "id": "var-khg-2k",
+          "size": "2 kg Pack",
+          "weightInKg": 2,
+          "price": 185,
+          "originalPrice": 220,
+          "inStock": true,
+          "stockCount": 65
+        },
+        {
+          "id": "var-khg-5k",
+          "size": "5 kg Carry Bag",
+          "weightInKg": 5,
+          "price": 440,
+          "originalPrice": 520,
+          "inStock": true,
+          "stockCount": 90
+        },
+        {
+          "id": "var-khg-10k",
+          "size": "10 kg Master Sack",
+          "weightInKg": 10,
+          "price": 849,
+          "originalPrice": 999,
+          "inStock": true,
+          "stockCount": 45
+        }
+      ],
+      "nutrition": {
+        "energy": "348 kcal",
+        "protein": "14.5 g",
+        "carbs": "65.4 g",
+        "fat": "2.1 g",
+        "fiber": "14.2 g",
+        "iron": "5.2 mg",
+        "glycemicIndex": "Low GI (42)"
+      },
+      "benefits": [
+        "All 4 pack sizes milled fresh to order",
+        "Low glycemic index ideal for senior citizens and sugar management",
+        "Zero chemical bleach or synthetic preservatives"
+      ],
+      "certifications": [
+        "Ancient Grain Seal",
+        "FSSAI Approved"
+      ],
+      "createdAt": "2026-11-18T05:23:17.365Z",
+      "updatedAt": "2026-11-18T05:23:17.365Z",
+      "__v": 0
+    },
+    {
+      "_id": "6afd36456a39170bfcd9a3a9",
+      "id": "itsclear-khapli-badges-edition",
+      "name": "itsclear Khapli Atta (Certified Pure Edition)",
+      "subTitle": "Five-Point Certified Ancient Wheat Flour",
+      "category": "khapli",
+      "tagline": "High Protein • Rich in Nutrition • Good for Health • Natural Ingredients",
+      "description": "Our certified edition itsclear Khapli flour highlighting all five health pillars: 100% Khapli Wheat, High Protein, Rich in Nutrition, Good for Health, and Natural Ingredients.",
+      "origin": "Sangli, Maharashtra",
+      "harvestSeason": "Spring 2026",
+      "labTestBatch": "CLR-KH-8845",
+      "purityScore": 100,
+      "featured": false,
+      "rating": 5,
+      "reviewCount": 96,
+      "images": [
+        "/images/products/khapli-sizes-badges.jpg",
+        "/images/products/khapli-sizes-badges-cutout.png"
+      ],
+      "modelType": "atta-kraft",
+      "themeColor": "#0b192c",
+      "secondaryColor": "#d97706",
+      "flourType": "100% Ancient Emmer Wheat",
+      "millingSpeed": "Cold Stone Ground (<27°C)",
+      "rotiSoftnessScore": 10,
+      "composition": "100% Khapli Wheat",
+      "packageBadges": [
+        "100% Khapli Wheat",
+        "High Protein",
+        "Rich in Nutrition",
+        "Good for Health",
+        "Natural Ingredients"
+      ],
+      "variants": [
+        {
+          "id": "var-khb-5k",
+          "size": "5 kg Bag",
+          "weightInKg": 5,
+          "price": 440,
+          "originalPrice": 520,
+          "inStock": true,
+          "stockCount": 70
+        },
+        {
+          "id": "var-khb-10k",
+          "size": "10 kg Bag",
+          "weightInKg": 10,
+          "price": 849,
+          "originalPrice": 999,
+          "inStock": true,
+          "stockCount": 30
+        }
+      ],
+      "nutrition": {
+        "energy": "348 kcal",
+        "protein": "14.5 g",
+        "carbs": "65.4 g",
+        "fat": "2.1 g",
+        "fiber": "14.2 g",
+        "iron": "5.2 mg",
+        "glycemicIndex": "Low GI (42)"
+      },
+      "benefits": [
+        "Verified ancient unhybridized grain batch",
+        "Gentle on gut and zero heaviness after meals"
+      ],
+      "certifications": [
+        "FSSAI Approved",
+        "Non-GMO Heritage Seal"
+      ],
+      "createdAt": "2026-11-18T05:23:17.365Z",
+      "updatedAt": "2026-11-18T05:23:17.365Z",
+      "__v": 0
+    },
+    {
+      "_id": "6afd36456a39170bfcd9a3aa",
+      "id": "itsclear-protein-duo-packs",
+      "name": "itsclear High Protein Atta (Twin Harvest Pack)",
+      "subTitle": "Dual Milling Batch (Wheat + Soya + Roasted Peanut)",
+      "category": "multigrain",
+      "tagline": "36% Protine • 36g Protein Per 100g • Duo Master Packs",
+      "description": "Duo pack edition featuring our 36% protein formulation. Designed for fitness enthusiasts, weight training households, and families looking for complete natural plant-protein without synthetic whey powder.",
+      "origin": "Malwa Plateau, Madhya Pradesh",
+      "harvestSeason": "Harvest 2026",
+      "labTestBatch": "CLR-HP-9208",
+      "purityScore": 100,
+      "featured": false,
+      "rating": 4.8,
+      "reviewCount": 142,
+      "images": [
+        "/images/products/protein-attas-duo-bori-only.png",
+        "/images/products/protein-bori-only.png"
+      ],
+      "modelType": "atta-sack",
+      "themeColor": "#1c1917",
+      "secondaryColor": "#f59e0b",
+      "flourType": "60% Whole Wheat, 30% Soya, 10% Peanut",
+      "millingSpeed": "Slow Stone Ground (<28°C)",
+      "rotiSoftnessScore": 9,
+      "composition": "Whole Wheat Atta 60%, Soya 30%, Peanut 10%",
+      "packageBadges": [
+        "36% Protine",
+        "Stronger Muscles",
+        "Natural Goodness"
+      ],
+      "variants": [
+        {
+          "id": "var-hpduo-5k",
+          "size": "5 kg Bag (Carry Handle)",
+          "weightInKg": 5,
+          "price": 495,
+          "originalPrice": 599,
+          "inStock": true,
+          "stockCount": 85
+        },
+        {
+          "id": "var-hpduo-10k",
+          "size": "10 kg (2x 5kg Duo)",
+          "weightInKg": 10,
+          "price": 950,
+          "originalPrice": 1150,
+          "inStock": true,
+          "stockCount": 40
+        }
+      ],
+      "nutrition": {
+        "energy": "372 kcal",
+        "protein": "36.0 g",
+        "carbs": "48.2 g",
+        "fat": "5.8 g",
+        "fiber": "12.4 g",
+        "iron": "6.4 mg",
+        "glycemicIndex": "Low GI"
+      },
+      "benefits": [
+        "Natural plant protein blend with zero isolate powders",
+        "Ideal for athletic households and high protein diet plans"
+      ],
+      "certifications": [
+        "FSSAI Approved",
+        "Lab Bio-Assay Tested"
+      ],
+      "createdAt": "2026-11-18T05:23:17.365Z",
+      "updatedAt": "2026-11-18T05:23:17.365Z",
+      "__v": 0
+    },
+    {
+      "_id": "6afd36456a39170bfcd9a3ab",
+      "id": "itsclear-khapli-10k-handle",
+      "name": "itsclear Khapli Atta 10 kg Master Carry Pack",
+      "subTitle": "100% Khapli Wheat 10kg Carry Handle Bag (Monthly Household Supply)",
+      "category": "khapli",
+      "tagline": "10 kg Net Weight • Ergonomic Carry Handle • 100% Khapli Wheat",
+      "description": "Our flagship 10kg household sack with built-in ergonomic carry handle. Milled slow on stone chakkis to provide a full monthly supply of authentic low-GI Khapli wheat for a family of 4-6 members.",
+      "origin": "Solapur & Sangli, Maharashtra",
+      "harvestSeason": "Spring 2026",
+      "labTestBatch": "CLR-KH-8850",
+      "purityScore": 100,
+      "featured": true,
+      "rating": 5,
+      "reviewCount": 215,
+      "images": [
+        "/images/products/khapli-bori-only.png",
+        "/images/products/khapli-sizes-badges-bori-only.png"
+      ],
+      "modelType": "atta-kraft",
+      "themeColor": "#0b192c",
+      "secondaryColor": "#d97706",
+      "flourType": "100% Khapli Wheat (Emmer)",
+      "millingSpeed": "Cold Stone Ground (<27°C)",
+      "rotiSoftnessScore": 10,
+      "composition": "100% Ancient Emmer Wheat",
+      "packageBadges": [
+        "100% Khapli Wheat",
+        "High Protein",
+        "Rich in Nutrition",
+        "Good for Health",
+        "Natural Ingredients"
+      ],
+      "variants": [
+        {
+          "id": "var-kh10-10k",
+          "size": "10 kg Carry Handle Bag",
+          "weightInKg": 10,
+          "price": 849,
+          "originalPrice": 999,
+          "inStock": true,
+          "stockCount": 75
+        },
+        {
+          "id": "var-kh10-20k",
+          "size": "20 kg (2x 10kg Bags)",
+          "weightInKg": 20,
+          "price": 1650,
+          "originalPrice": 1999,
+          "inStock": true,
+          "stockCount": 30
+        }
+      ],
+      "nutrition": {
+        "energy": "348 kcal",
+        "protein": "14.5 g",
+        "carbs": "65.4 g",
+        "fat": "2.1 g",
+        "fiber": "14.2 g",
+        "iron": "5.2 mg",
+        "glycemicIndex": "Low GI (42)"
+      },
+      "benefits": [
+        "Ergonomic heavy-duty carry handle for easy kitchen storage",
+        "Bags are airtight moisture-barrier sealed to preserve fresh stone milling aroma"
+      ],
+      "certifications": [
+        "Ancient Grain Seal",
+        "FSSAI Approved"
+      ],
+      "createdAt": "2026-11-18T05:23:17.365Z",
+      "updatedAt": "2026-11-18T05:23:17.365Z",
+      "__v": 0
+    },
+    {
+      "_id": "6afd36456a39170bfcd9a3ac",
+      "id": "itsclear-khapli-ancient",
+      "name": "itsclear Khapli Atta",
+      "subTitle": "100% Khapli Wheat Ancient Flour (Diabetic Friendly)",
+      "category": "khapli",
+      "tagline": "100% Khapli Wheat • Ancient Emmer Grain • Naturally Low-GI",
+      "description": "Milled from 100% pure ancient Khapli (Emmer) wheat grains as depicted on our packaging. Naturally low in glycemic index, high in coarse fiber, and packed with ancient minerals. Ideal for diabetic glucose balance, gut vitality, and soft rotis without any preservatives, maida, or bleaching chemicals.",
+      "origin": "Solapur & Sangli, Maharashtra",
+      "harvestSeason": "Spring 2026",
+      "labTestBatch": "CLR-KH-8841",
+      "purityScore": 100,
+      "featured": true,
+      "rating": 5,
+      "reviewCount": 342,
+      "images": [
+        "/images/products/khapli-single.jpg",
+        "/images/products/khapli-single-cutout.png",
+        "/images/products/khapli-bori-only.png"
+      ],
+      "modelType": "atta-kraft",
+      "themeColor": "#0b192c",
+      "secondaryColor": "#d97706",
+      "flourType": "100% Khapli Wheat (Triticum Dicoccum)",
+      "millingSpeed": "Cold Stone Ground (<27°C)",
+      "rotiSoftnessScore": 10,
+      "composition": "100% Ancient Emmer Khapli Wheat",
+      "packageBadges": [
+        "100% Khapli Wheat",
+        "High Protein",
+        "Rich in Nutrition",
+        "Good for Health",
+        "Natural Ingredients"
+      ],
+      "variants": [
+        {
+          "id": "var-kh1-1k",
+          "size": "1 kg Net Weight",
+          "weightInKg": 1,
+          "price": 95,
+          "originalPrice": 115,
+          "inStock": true,
+          "stockCount": 50
+        },
+        {
+          "id": "var-kh1-2k",
+          "size": "2 kg Net Weight",
+          "weightInKg": 2,
+          "price": 185,
+          "originalPrice": 220,
+          "inStock": true,
+          "stockCount": 45
+        },
+        {
+          "id": "var-kh1-5k",
+          "size": "5 kg Net Weight (Carry Handle)",
+          "weightInKg": 5,
+          "price": 440,
+          "originalPrice": 520,
+          "inStock": true,
+          "stockCount": 85
+        },
+        {
+          "id": "var-kh1-10k",
+          "size": "10 kg Net Weight (Carry Handle)",
+          "weightInKg": 10,
+          "price": 849,
+          "originalPrice": 999,
+          "inStock": true,
+          "stockCount": 40
+        }
+      ],
+      "nutrition": {
+        "energy": "348 kcal",
+        "protein": "14.5 g",
+        "carbs": "65.4 g",
+        "fat": "2.1 g",
+        "fiber": "14.2 g",
+        "iron": "5.2 mg",
+        "glycemicIndex": "Low GI (42)"
+      },
+      "benefits": [
+        "100% Khapli Wheat with low glycemic index prevents sugar spikes",
+        "Gentle water-soluble gluten structure — zero bloating or heaviness",
+        "Rich in polyphenols and magnesium for metabolic health",
+        "Traditional heirloom grain grown with zero chemical pesticides"
+      ],
+      "certifications": [
+        "Ancient Grain Seal",
+        "Low-GI Certified",
+        "Non-GMO Heritage Grain",
+        "FSSAI Approved"
+      ],
+      "createdAt": "2026-11-18T05:23:17.369Z",
+      "updatedAt": "2026-11-18T05:23:17.369Z",
+      "__v": 0
+    },
+    {
+      "_id": "6afd36456a39170bfcd9a3ad",
+      "id": "itsclear-high-protein",
+      "name": "itsclear Premium High Protein Atta",
+      "subTitle": "High Protein Whole Wheat Flour (36% Protine)",
+      "category": "multigrain",
+      "tagline": "36% Protine • 36g Protein Per 100g • Whole Wheat, Soya & Peanut",
+      "description": "itsclear Premium High Protein Whole Wheat Flour is crafted with exactly 36g protein per 100g, blending 60% whole wheat atta, 30% golden soya flour, and 10% roasted peanuts. Formulated to build stronger muscles, support immunity, deliver natural goodness, and promote heart health with zero added maida.",
+      "origin": "Malwa & Indore, Madhya Pradesh",
+      "harvestSeason": "Harvest 2026",
+      "labTestBatch": "CLR-HP-9204",
+      "purityScore": 100,
+      "featured": true,
+      "rating": 4.9,
+      "reviewCount": 298,
+      "images": [
+        "/images/products/protein-single.jpg",
+        "/images/products/protein-single-cutout.png",
+        "/images/products/protein-bori-only.png"
+      ],
+      "modelType": "atta-sack",
+      "themeColor": "#1c1917",
+      "secondaryColor": "#f59e0b",
+      "flourType": "60% Whole Wheat + 30% Soya + 10% Peanut",
+      "millingSpeed": "Precision Emery Stone Milling (<28°C)",
+      "rotiSoftnessScore": 9,
+      "composition": "60% Wheat Atta • 30% Soya Flour • 10% Peanut",
+      "packageBadges": [
+        "36% Protine",
+        "Stronger Muscles",
+        "Immunity Support",
+        "Natural Goodness",
+        "Promotes Heart Health"
+      ],
+      "variants": [
+        {
+          "id": "var-hp-1k",
+          "size": "1 kg Trial Pouch",
+          "weightInKg": 1,
+          "price": 110,
+          "originalPrice": 130,
+          "inStock": true,
+          "stockCount": 60
+        },
+        {
+          "id": "var-hp-2k",
+          "size": "2 kg Kitchen Pack",
+          "weightInKg": 2,
+          "price": 210,
+          "originalPrice": 250,
+          "inStock": true,
+          "stockCount": 50
+        },
+        {
+          "id": "var-hp-5k",
+          "size": "5 kg Power Sack",
+          "weightInKg": 5,
+          "price": 495,
+          "originalPrice": 599,
+          "inStock": true,
+          "stockCount": 120
+        },
+        {
+          "id": "var-hp-10k",
+          "size": "10 kg Family Sack",
+          "weightInKg": 10,
+          "price": 950,
+          "originalPrice": 1150,
+          "inStock": true,
+          "stockCount": 35
+        }
+      ],
+      "nutrition": {
+        "energy": "372 kcal",
+        "protein": "36.0 g",
+        "carbs": "48.2 g",
+        "fat": "5.8 g",
+        "fiber": "12.4 g",
+        "iron": "6.4 mg",
+        "glycemicIndex": "Medium-Low GI (48)"
+      },
+      "benefits": [
+        "Clinically measured 36g plant protein per 100g for active muscle recovery",
+        "Roasted peanut meal delivers natural heart-healthy mono-unsaturated lipids",
+        "De-fatted soya provides rich essential amino acid profile without digestive load",
+        "Whole grain wheat base retains natural bran fiber for steady digestive fullness"
+      ],
+      "certifications": [
+        "High-Protein Certified",
+        "FSSAI Approved Lab Batch",
+        "Zero Maida Guarantee",
+        "Zero Chemical Bleach"
+      ],
+      "createdAt": "2026-11-18T05:23:17.369Z",
+      "updatedAt": "2026-11-18T05:23:17.369Z",
+      "__v": 0
+    },
+    {
+      "_id": "6afd36456a39170bfcd9a3ae",
+      "id": "itsclear-khapli-family-pack",
+      "name": "itsclear Khapli Atta (Family Pack)",
+      "subTitle": "100% Ancient Khapli Wheat — Available in 1kg, 2kg, 5kg, 10kg",
+      "category": "khapli",
+      "tagline": "Ancient Grain • Pure Stoneground • 4 Family Size Variants",
+      "description": "The authentic itsclear Khapli Atta range as showcased across all size variants. Stoneground under 27°C on emery stones. Naturally unhybridized grain from Sangli and Solapur farmers.",
+      "origin": "Solapur & Sangli, Maharashtra",
+      "harvestSeason": "Spring 2026",
+      "labTestBatch": "CLR-KH-8842",
+      "purityScore": 100,
+      "featured": true,
+      "rating": 4.9,
+      "reviewCount": 184,
+      "images": [
+        "/images/products/khapli-sizes-grid.jpg",
+        "/images/products/khapli-sizes-grid-cutout.png"
+      ],
+      "modelType": "atta-kraft",
+      "themeColor": "#0b192c",
+      "secondaryColor": "#d97706",
+      "flourType": "100% Ancient Emmer Khapli Grain",
+      "millingSpeed": "Cold Stone Ground (<27°C)",
+      "rotiSoftnessScore": 10,
+      "composition": "100% Pure Khapli Grain",
+      "packageBadges": [
+        "100% Khapli Wheat",
+        "High Protein",
+        "Rich in Nutrition",
+        "Natural Ingredients"
+      ],
+      "variants": [
+        {
+          "id": "var-khg-1k",
+          "size": "1 kg Pack",
+          "weightInKg": 1,
+          "price": 95,
+          "originalPrice": 115,
+          "inStock": true,
+          "stockCount": 80
+        },
+        {
+          "id": "var-khg-2k",
+          "size": "2 kg Pack",
+          "weightInKg": 2,
+          "price": 185,
+          "originalPrice": 220,
+          "inStock": true,
+          "stockCount": 65
+        },
+        {
+          "id": "var-khg-5k",
+          "size": "5 kg Carry Bag",
+          "weightInKg": 5,
+          "price": 440,
+          "originalPrice": 520,
+          "inStock": true,
+          "stockCount": 90
+        },
+        {
+          "id": "var-khg-10k",
+          "size": "10 kg Master Sack",
+          "weightInKg": 10,
+          "price": 849,
+          "originalPrice": 999,
+          "inStock": true,
+          "stockCount": 45
+        }
+      ],
+      "nutrition": {
+        "energy": "348 kcal",
+        "protein": "14.5 g",
+        "carbs": "65.4 g",
+        "fat": "2.1 g",
+        "fiber": "14.2 g",
+        "iron": "5.2 mg",
+        "glycemicIndex": "Low GI (42)"
+      },
+      "benefits": [
+        "All 4 pack sizes milled fresh to order",
+        "Low glycemic index ideal for senior citizens and sugar management",
+        "Zero chemical bleach or synthetic preservatives"
+      ],
+      "certifications": [
+        "Ancient Grain Seal",
+        "FSSAI Approved"
+      ],
+      "createdAt": "2026-11-18T05:23:17.369Z",
+      "updatedAt": "2026-11-18T05:23:17.369Z",
+      "__v": 0
+    },
+    {
+      "_id": "6afd36456a39170bfcd9a3af",
+      "id": "itsclear-khapli-badges-edition",
+      "name": "itsclear Khapli Atta (Certified Pure Edition)",
+      "subTitle": "Five-Point Certified Ancient Wheat Flour",
+      "category": "khapli",
+      "tagline": "High Protein • Rich in Nutrition • Good for Health • Natural Ingredients",
+      "description": "Our certified edition itsclear Khapli flour highlighting all five health pillars: 100% Khapli Wheat, High Protein, Rich in Nutrition, Good for Health, and Natural Ingredients.",
+      "origin": "Sangli, Maharashtra",
+      "harvestSeason": "Spring 2026",
+      "labTestBatch": "CLR-KH-8845",
+      "purityScore": 100,
+      "featured": false,
+      "rating": 5,
+      "reviewCount": 96,
+      "images": [
+        "/images/products/khapli-sizes-badges.jpg",
+        "/images/products/khapli-sizes-badges-cutout.png"
+      ],
+      "modelType": "atta-kraft",
+      "themeColor": "#0b192c",
+      "secondaryColor": "#d97706",
+      "flourType": "100% Ancient Emmer Wheat",
+      "millingSpeed": "Cold Stone Ground (<27°C)",
+      "rotiSoftnessScore": 10,
+      "composition": "100% Khapli Wheat",
+      "packageBadges": [
+        "100% Khapli Wheat",
+        "High Protein",
+        "Rich in Nutrition",
+        "Good for Health",
+        "Natural Ingredients"
+      ],
+      "variants": [
+        {
+          "id": "var-khb-5k",
+          "size": "5 kg Bag",
+          "weightInKg": 5,
+          "price": 440,
+          "originalPrice": 520,
+          "inStock": true,
+          "stockCount": 70
+        },
+        {
+          "id": "var-khb-10k",
+          "size": "10 kg Bag",
+          "weightInKg": 10,
+          "price": 849,
+          "originalPrice": 999,
+          "inStock": true,
+          "stockCount": 30
+        }
+      ],
+      "nutrition": {
+        "energy": "348 kcal",
+        "protein": "14.5 g",
+        "carbs": "65.4 g",
+        "fat": "2.1 g",
+        "fiber": "14.2 g",
+        "iron": "5.2 mg",
+        "glycemicIndex": "Low GI (42)"
+      },
+      "benefits": [
+        "Verified ancient unhybridized grain batch",
+        "Gentle on gut and zero heaviness after meals"
+      ],
+      "certifications": [
+        "FSSAI Approved",
+        "Non-GMO Heritage Seal"
+      ],
+      "createdAt": "2026-11-18T05:23:17.369Z",
+      "updatedAt": "2026-11-18T05:23:17.369Z",
+      "__v": 0
+    },
+    {
+      "_id": "6afd36456a39170bfcd9a3b0",
+      "id": "itsclear-protein-duo-packs",
+      "name": "itsclear High Protein Atta (Twin Harvest Pack)",
+      "subTitle": "Dual Milling Batch (Wheat + Soya + Roasted Peanut)",
+      "category": "multigrain",
+      "tagline": "36% Protine • 36g Protein Per 100g • Duo Master Packs",
+      "description": "Duo pack edition featuring our 36% protein formulation. Designed for fitness enthusiasts, weight training households, and families looking for complete natural plant-protein without synthetic whey powder.",
+      "origin": "Malwa Plateau, Madhya Pradesh",
+      "harvestSeason": "Harvest 2026",
+      "labTestBatch": "CLR-HP-9208",
+      "purityScore": 100,
+      "featured": false,
+      "rating": 4.8,
+      "reviewCount": 142,
+      "images": [
+        "/images/products/protein-attas-duo-bori-only.png",
+        "/images/products/protein-bori-only.png"
+      ],
+      "modelType": "atta-sack",
+      "themeColor": "#1c1917",
+      "secondaryColor": "#f59e0b",
+      "flourType": "60% Whole Wheat, 30% Soya, 10% Peanut",
+      "millingSpeed": "Slow Stone Ground (<28°C)",
+      "rotiSoftnessScore": 9,
+      "composition": "Whole Wheat Atta 60%, Soya 30%, Peanut 10%",
+      "packageBadges": [
+        "36% Protine",
+        "Stronger Muscles",
+        "Natural Goodness"
+      ],
+      "variants": [
+        {
+          "id": "var-hpduo-5k",
+          "size": "5 kg Bag (Carry Handle)",
+          "weightInKg": 5,
+          "price": 495,
+          "originalPrice": 599,
+          "inStock": true,
+          "stockCount": 85
+        },
+        {
+          "id": "var-hpduo-10k",
+          "size": "10 kg (2x 5kg Duo)",
+          "weightInKg": 10,
+          "price": 950,
+          "originalPrice": 1150,
+          "inStock": true,
+          "stockCount": 40
+        }
+      ],
+      "nutrition": {
+        "energy": "372 kcal",
+        "protein": "36.0 g",
+        "carbs": "48.2 g",
+        "fat": "5.8 g",
+        "fiber": "12.4 g",
+        "iron": "6.4 mg",
+        "glycemicIndex": "Low GI"
+      },
+      "benefits": [
+        "Natural plant protein blend with zero isolate powders",
+        "Ideal for athletic households and high protein diet plans"
+      ],
+      "certifications": [
+        "FSSAI Approved",
+        "Lab Bio-Assay Tested"
+      ],
+      "createdAt": "2026-11-18T05:23:17.369Z",
+      "updatedAt": "2026-11-18T05:23:17.369Z",
+      "__v": 0
+    },
+    {
+      "_id": "6afd36456a39170bfcd9a3b1",
+      "id": "itsclear-khapli-10k-handle",
+      "name": "itsclear Khapli Atta 10 kg Master Carry Pack",
+      "subTitle": "100% Khapli Wheat 10kg Carry Handle Bag (Monthly Household Supply)",
+      "category": "khapli",
+      "tagline": "10 kg Net Weight • Ergonomic Carry Handle • 100% Khapli Wheat",
+      "description": "Our flagship 10kg household sack with built-in ergonomic carry handle. Milled slow on stone chakkis to provide a full monthly supply of authentic low-GI Khapli wheat for a family of 4-6 members.",
+      "origin": "Solapur & Sangli, Maharashtra",
+      "harvestSeason": "Spring 2026",
+      "labTestBatch": "CLR-KH-8850",
+      "purityScore": 100,
+      "featured": true,
+      "rating": 5,
+      "reviewCount": 215,
+      "images": [
+        "/images/products/khapli-bori-only.png",
+        "/images/products/khapli-sizes-badges-bori-only.png"
+      ],
+      "modelType": "atta-kraft",
+      "themeColor": "#0b192c",
+      "secondaryColor": "#d97706",
+      "flourType": "100% Khapli Wheat (Emmer)",
+      "millingSpeed": "Cold Stone Ground (<27°C)",
+      "rotiSoftnessScore": 10,
+      "composition": "100% Ancient Emmer Wheat",
+      "packageBadges": [
+        "100% Khapli Wheat",
+        "High Protein",
+        "Rich in Nutrition",
+        "Good for Health",
+        "Natural Ingredients"
+      ],
+      "variants": [
+        {
+          "id": "var-kh10-10k",
+          "size": "10 kg Carry Handle Bag",
+          "weightInKg": 10,
+          "price": 849,
+          "originalPrice": 999,
+          "inStock": true,
+          "stockCount": 75
+        },
+        {
+          "id": "var-kh10-20k",
+          "size": "20 kg (2x 10kg Bags)",
+          "weightInKg": 20,
+          "price": 1650,
+          "originalPrice": 1999,
+          "inStock": true,
+          "stockCount": 30
+        }
+      ],
+      "nutrition": {
+        "energy": "348 kcal",
+        "protein": "14.5 g",
+        "carbs": "65.4 g",
+        "fat": "2.1 g",
+        "fiber": "14.2 g",
+        "iron": "5.2 mg",
+        "glycemicIndex": "Low GI (42)"
+      },
+      "benefits": [
+        "Ergonomic heavy-duty carry handle for easy kitchen storage",
+        "Bags are airtight moisture-barrier sealed to preserve fresh stone milling aroma"
+      ],
+      "certifications": [
+        "Ancient Grain Seal",
+        "FSSAI Approved"
+      ],
+      "createdAt": "2026-11-18T05:23:17.370Z",
+      "updatedAt": "2026-11-18T05:23:17.370Z",
+      "__v": 0
+    },
+    {
+      "_id": "6b0164a6c79a74d2bdbb94e8",
+      "id": "itsclear-mustard-oil-coldpressed",
+      "benefits": [
+        "Slow wooden kohlu cold pressing preserves natural volatile pungency",
+        "High smoke point (250°C) perfect for deep frying, tadka and pickling",
+        "Rich in heart-healthy MUFA and balanced Omega-3 to Omega-6 ratio",
+        "100% single-origin mustard seeds with zero argemone or chemical bleaching"
+      ],
+      "category": "oil",
+      "certifications": [
+        "Kachi Ghani Cold-Pressed Certified",
+        "Zero Argemone Tested",
+        "FSSAI Grade-1",
+        "Non-GMO Seeds"
+      ],
+      "description": "itsclear Cold Pressed Mustard Oil is traditionally extracted from premium grade-1 black and yellow mustard seeds using slow wooden kohlus below 35°C. Rich in natural pungency, natural allyl isothiocyanate, and monounsaturated fatty acids (MUFA), this golden-amber oil adds authentic aroma and high smoke point goodness to everyday Indian cooking.",
+      "extractionMethod": "Wooden Kohlu Cold Pressed (<35°C)",
+      "featured": true,
+      "harvestSeason": "Winter Harvest 2026",
+      "images": [
+        "/images/products/mustard-oil-pouch.jpg",
+        "/images/products/mustard-oil-bottle.jpg",
+        "/images/products/mustard-oil-bottle-card.jpg"
+      ],
+      "isActive": true,
+      "labTestBatch": "CLR-OIL-7104",
+      "modelType": "bottle",
+      "name": "itsclear Cold Pressed Mustard Oil",
+      "nutrition": {
+        "energy": "884 kcal",
+        "protein": "0 g",
+        "carbs": "0 g",
+        "fat": "100 g",
+        "mufa": "60 g",
+        "pufa": "21 g",
+        "omega3": "10 g"
+      },
+      "origin": "Bharatpur & Alwar, Rajasthan",
+      "packageBadges": [
+        "100% Cold Pressed",
+        "Wooden Kohlu",
+        "Natural Pungency",
+        "Zero Argemone",
+        "Unrefined & Unfiltered"
+      ],
+      "purityScore": 100,
+      "rating": 4.9,
+      "reviewCount": 218,
+      "secondaryColor": "#ea580c",
+      "seedVariety": "Single-Origin Rajasthan Black Mustard Seeds",
+      "smokePoint": "250°C (Ideal for High-Heat Indian Cooking)",
+      "storageInstructions": "Store in a cool, dry place away from direct sunlight",
+      "subTitle": "100% Pure Kachi Ghani Sarson Ka Tel (Wooden Kohlu Pressed)",
+      "tagline": "Cold Pressed • Wooden Kohlu • High Pungency • Zero Argemone",
+      "themeColor": "#0c1523",
+      "variants": [
+        {
+          "id": "oil-500ml-btl",
+          "size": "500 ml (Glass Bottle)",
+          "volumeInMl": 500,
+          "price": 145,
+          "originalPrice": 175,
+          "inStock": true,
+          "stockCount": 80
+        },
+        {
+          "id": "oil-1l-pouch",
+          "size": "1 Litre (Pouch)",
+          "volumeInMl": 1000,
+          "price": 245,
+          "originalPrice": 290,
+          "inStock": true,
+          "stockCount": 120
+        },
+        {
+          "id": "oil-1l-btl",
+          "size": "1 Litre (Glass Bottle)",
+          "volumeInMl": 1000,
+          "price": 275,
+          "originalPrice": 320,
+          "inStock": true,
+          "stockCount": 60
+        },
+        {
+          "id": "oil-5l-can",
+          "size": "5 Litre (Kitchen Tin)",
+          "volumeInMl": 5000,
+          "price": 1290,
+          "originalPrice": 1499,
+          "inStock": true,
+          "stockCount": 35
+        }
+      ]
+    },
+    {
+      "_id": "6b0164a6c79a74d2bdbb94e9",
+      "id": "itsclear-desi-ghee-bilona",
+      "benefits": [
+        "Cultured curd bilona method makes ghee naturally lactose & casein free",
+        "High content of butyric acid supports healthy gut lining & digestion",
+        "Rich golden danedaar texture with intoxicating traditional aroma",
+        "Zero palm oil, zero vanaspati, and zero synthetic coloring agents"
+      ],
+      "category": "ghee",
+      "certifications": [
+        "Traditional Bilona Certified",
+        "Pure Milk Fat 99.7%",
+        "FSSAI Approved",
+        "Zero Adulteration Verified"
+      ],
+      "churningMethod": "Traditional Two-Way Wooden Bilona Curd Churning",
+      "description": "itsclear Traditional Desi Ghee is prepared using the revered Vedic Bilona method: fresh A2 whole milk is cultured into curd, slowly churned with wooden bilonas, and hand-simmered on low flame. The result is pure, aromatic, golden danedaar ghee rich in butyric acid and fat-soluble vitamins (A, D, E, K), with zero preservatives or vegetable oils.",
+      "featured": true,
+      "gheeTexture": "Aromatic Golden Danedaar Granules",
+      "harvestSeason": "Fresh Farm Batch 2026",
+      "images": [
+        "/images/products/desi-ghee-pouch.jpg",
+        "/images/products/desi-ghee-jar.jpg",
+        "/images/products/desi-ghee-jar-card.jpg"
+      ],
+      "isActive": true,
+      "labTestBatch": "CLR-GHEE-4819",
+      "modelType": "jar",
+      "name": "itsclear Traditional Desi Ghee",
+      "nutrition": {
+        "energy": "897 kcal",
+        "protein": "0 g",
+        "carbs": "0 g",
+        "fat": "99.7 g",
+        "saturatedFat": "65 g",
+        "cholesterol": "190 mg",
+        "vitaminA": "300 mcg"
+      },
+      "origin": "Mathura & Braj Region, Uttar Pradesh",
+      "packageBadges": [
+        "Bilona Curd Churned",
+        "Golden Danedaar",
+        "Zero Preservatives",
+        "100% Pure Cow Ghee",
+        "A2 Whole Milk Cultured"
+      ],
+      "purityScore": 100,
+      "rating": 5,
+      "reviewCount": 176,
+      "secondaryColor": "#f59e0b",
+      "storageInstructions": "Store in a dry container at room temperature. Do not refrigerate.",
+      "subTitle": "100% Pure Danedaar Cow Desi Ghee (Traditional Bilona Churned)",
+      "tagline": "Traditional Bilona • Curd Churned • Danedaar Texture • Rich Golden Aroma",
+      "themeColor": "#0c1523",
+      "variants": [
+        {
+          "id": "ghee-500ml-jar",
+          "size": "500 ml (Glass Jar)",
+          "volumeInMl": 500,
+          "price": 549,
+          "originalPrice": 649,
+          "inStock": true,
+          "stockCount": 75
+        },
+        {
+          "id": "ghee-1l-pouch",
+          "size": "1 Litre (Pouch)",
+          "volumeInMl": 1000,
+          "price": 980,
+          "originalPrice": 1150,
+          "inStock": true,
+          "stockCount": 90
+        },
+        {
+          "id": "ghee-1l-jar",
+          "size": "1 Litre (Glass Jar)",
+          "volumeInMl": 1000,
+          "price": 1049,
+          "originalPrice": 1250,
+          "inStock": true,
+          "stockCount": 50
+        }
+      ]
+    },
+    {
+      "_id": "6b0164a6c79a74d2bdbb94ea",
+      "id": "itsclear-kitchen-combo-trio",
+      "benefits": [
+        "Complete daily grocery essentials in one convenient box",
+        "Saves ₹215 compared to individual item prices",
+        "Freshly packed directly from single-origin certified farms",
+        "Priority 2-hour EV express delivery right to your kitchen"
+      ],
+      "category": "combos",
+      "certifications": [
+        "Triple Lab Certified Batch",
+        "Zero Maida & Zero Adulteration",
+        "FSSAI Approved"
+      ],
+      "comboItems": [
+        "1 × 5kg itsclear Khapli Wheat Atta (Bori)",
+        "1 × 1 Litre itsclear Cold-Pressed Mustard Oil",
+        "1 × 500ml itsclear Traditional Bilona Desi Ghee (Glass Jar)"
+      ],
+      "description": "The ultimate daily Indian kitchen staples box. Contains 5kg stoneground Khapli Wheat Atta (for soft, low-GI rotis), 1 Litre wooden kohlu cold-pressed Mustard Oil (for flavorful cooking), and 500ml traditional Bilona Desi Ghee (golden danedaar). Farm fresh, pure and unadulterated.",
+      "featured": true,
+      "harvestSeason": "Harvest 2026",
+      "images": [
+        "/images/products/khapli-sizes-grid.jpg",
+        "/images/products/mustard-oil-bottle.jpg",
+        "/images/products/desi-ghee-jar.jpg"
+      ],
+      "isActive": true,
+      "labTestBatch": "CLR-CMB-1092",
+      "modelType": "atta-sack",
+      "name": "itsclear Kitchen Essentials Trio",
+      "nutrition": {
+        "energy": "Full Pantry Nutrition",
+        "protein": "Whole grain protein",
+        "fiber": "Ancient Emmer fiber",
+        "healthyFats": "MUFA & Bilona Ghee Butyrate"
+      },
+      "origin": "Maharashtra, Rajasthan & Uttar Pradesh",
+      "packageBadges": [
+        "Kitchen Trio Combo",
+        "Save ₹215",
+        "100% Natural Staples",
+        "Free EV Express Delivery"
+      ],
+      "purityScore": 100,
+      "rating": 5,
+      "reviewCount": 88,
+      "secondaryColor": "#ea580c",
+      "subTitle": "5kg Khapli Atta + 1L Mustard Oil + 500ml Desi Ghee",
+      "tagline": "Stoneground Atta + Cold-Pressed Oil + Bilona Desi Ghee (Save ₹215)",
+      "themeColor": "#0c1523",
+      "variants": [
+        {
+          "id": "var-cmb-trio",
+          "size": "Family Trio Pack",
+          "weightInKg": 6.5,
+          "price": 1199,
+          "originalPrice": 1414,
+          "inStock": true,
+          "stockCount": 40
+        }
+      ]
+    }
+  ]
+}

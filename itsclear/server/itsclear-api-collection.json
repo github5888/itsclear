@@ -1,0 +1,275 @@
+{
+  "info": {
+    "name": "itsclear Mobile & Web REST API (MongoDB)",
+    "description": "Production-ready REST API collection for itsclear 100% Pure Stoneground Chakki Atta Mobile App & Web Storefront.",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+  },
+  "variable": [
+    {
+      "key": "baseUrl",
+      "value": "http://localhost:5001/api",
+      "type": "string"
+    },
+    {
+      "key": "authToken",
+      "value": "",
+      "type": "string"
+    }
+  ],
+  "item": [
+    {
+      "name": "0. System Health",
+      "item": [
+        {
+          "name": "Health Check",
+          "request": {
+            "method": "GET",
+            "url": {
+              "raw": "{{baseUrl}}/health",
+              "host": ["{{baseUrl}}"],
+              "path": ["health"]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "1. Authentication & OTP",
+      "item": [
+        {
+          "name": "Step 1: Send Registration OTP",
+          "request": {
+            "method": "POST",
+            "header": [
+              { "key": "Content-Type", "value": "application/json" }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"fullName\": \"Rahul Sharma\",\n  \"mobile\": \"9876543210\",\n  \"email\": \"customer@example.com\",\n  \"city\": \"Lucknow\",\n  \"password\": \"SecurePassword123\",\n  \"confirmPassword\": \"SecurePassword123\"\n}"
+            },
+            "url": {
+              "raw": "{{baseUrl}}/auth/register/send-otp",
+              "host": ["{{baseUrl}}"],
+              "path": ["auth", "register", "send-otp"]
+            }
+          }
+        },
+        {
+          "name": "Step 2: Verify OTP & Create Account (250 Coins Bonus)",
+          "request": {
+            "method": "POST",
+            "header": [
+              { "key": "Content-Type", "value": "application/json" }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"email\": \"customer@example.com\",\n  \"otp\": \"123456\"\n}"
+            },
+            "url": {
+              "raw": "{{baseUrl}}/auth/register/verify-and-create",
+              "host": ["{{baseUrl}}"],
+              "path": ["auth", "register", "verify-and-create"]
+            }
+          }
+        },
+        {
+          "name": "Resend OTP",
+          "request": {
+            "method": "POST",
+            "header": [
+              { "key": "Content-Type", "value": "application/json" }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"email\": \"customer@example.com\"\n}"
+            },
+            "url": {
+              "raw": "{{baseUrl}}/auth/register/resend-otp",
+              "host": ["{{baseUrl}}"],
+              "path": ["auth", "register", "resend-otp"]
+            }
+          }
+        },
+        {
+          "name": "Customer Login (Email or Phone)",
+          "request": {
+            "method": "POST",
+            "header": [
+              { "key": "Content-Type", "value": "application/json" }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"emailOrPhone\": \"customer@example.com\",\n  \"password\": \"SecurePassword123\"\n}"
+            },
+            "url": {
+              "raw": "{{baseUrl}}/auth/login",
+              "host": ["{{baseUrl}}"],
+              "path": ["auth", "login"]
+            }
+          }
+        },
+        {
+          "name": "Admin Portal Login",
+          "request": {
+            "method": "POST",
+            "header": [
+              { "key": "Content-Type", "value": "application/json" }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"email\": \"admin@itsclear.in\",\n  \"password\": \"admin123\"\n}"
+            },
+            "url": {
+              "raw": "{{baseUrl}}/auth/admin-login",
+              "host": ["{{baseUrl}}"],
+              "path": ["auth", "admin-login"]
+            }
+          }
+        },
+        {
+          "name": "Get Current Profile & Grain Coins",
+          "request": {
+            "method": "GET",
+            "header": [
+              { "key": "Authorization", "value": "Bearer {{authToken}}" }
+            ],
+            "url": {
+              "raw": "{{baseUrl}}/auth/me",
+              "host": ["{{baseUrl}}"],
+              "path": ["auth", "me"]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "2. Products Catalog",
+      "item": [
+        {
+          "name": "Get All Products",
+          "request": {
+            "method": "GET",
+            "url": {
+              "raw": "{{baseUrl}}/products",
+              "host": ["{{baseUrl}}"],
+              "path": ["products"]
+            }
+          }
+        },
+        {
+          "name": "Get Single Product by ID",
+          "request": {
+            "method": "GET",
+            "url": {
+              "raw": "{{baseUrl}}/products/itsclear-khapli-ancient",
+              "host": ["{{baseUrl}}"],
+              "path": ["products", "itsclear-khapli-ancient"]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "3. Orders & Checkout",
+      "item": [
+        {
+          "name": "Place New Order",
+          "request": {
+            "method": "POST",
+            "header": [
+              { "key": "Content-Type", "value": "application/json" },
+              { "key": "Authorization", "value": "Bearer {{authToken}}" }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"userId\": \"usr-12345\",\n  \"items\": [\n    {\n      \"productId\": \"itsclear-khapli-ancient\",\n      \"productName\": \"itsclear Khapli Atta\",\n      \"variantId\": \"var-kh1-5k\",\n      \"variantSize\": \"5 kg Net Weight (Carry Handle)\",\n      \"price\": 440,\n      \"quantity\": 1,\n      \"image\": \"/images/products/khapli-bori-only.png\"\n    }\n  ],\n  \"subtotal\": 440,\n  \"discount\": 0,\n  \"couponCode\": null,\n  \"tax\": 0,\n  \"deliveryFee\": 0,\n  \"total\": 440,\n  \"shippingAddress\": {\n    \"fullName\": \"Rahul Sharma\",\n    \"phone\": \"9876543210\",\n    \"addressLine\": \"Flat 402, Green Enclave\",\n    \"landmark\": \"Near Patrakarpuram\",\n    \"city\": \"Lucknow\",\n    \"pincode\": \"226010\"\n  },\n  \"deliverySlot\": \"2-Hour Farm Express\",\n  \"paymentMethod\": \"upi\"\n}"
+            },
+            "url": {
+              "raw": "{{baseUrl}}/orders",
+              "host": ["{{baseUrl}}"],
+              "path": ["orders"]
+            }
+          }
+        },
+        {
+          "name": "Get Customer Orders",
+          "request": {
+            "method": "GET",
+            "url": {
+              "raw": "{{baseUrl}}/orders?userId=usr-12345",
+              "host": ["{{baseUrl}}"],
+              "path": ["orders"],
+              "query": [
+                { "key": "userId", "value": "usr-12345" }
+              ]
+            }
+          }
+        },
+        {
+          "name": "Track Order by Order Number or ID",
+          "request": {
+            "method": "GET",
+            "url": {
+              "raw": "{{baseUrl}}/orders/CLR-2026-8841",
+              "host": ["{{baseUrl}}"],
+              "path": ["orders", "CLR-2026-8841"]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "4. Coupons & Offers",
+      "item": [
+        {
+          "name": "Get Active Coupons",
+          "request": {
+            "method": "GET",
+            "url": {
+              "raw": "{{baseUrl}}/coupons",
+              "host": ["{{baseUrl}}"],
+              "path": ["coupons"]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "5. Reviews & Ratings",
+      "item": [
+        {
+          "name": "Get Product Reviews",
+          "request": {
+            "method": "GET",
+            "url": {
+              "raw": "{{baseUrl}}/reviews?productId=itsclear-khapli-ancient",
+              "host": ["{{baseUrl}}"],
+              "path": ["reviews"],
+              "query": [
+                { "key": "productId", "value": "itsclear-khapli-ancient" }
+              ]
+            }
+          }
+        },
+        {
+          "name": "Submit Product Review",
+          "request": {
+            "method": "POST",
+            "header": [
+              { "key": "Content-Type", "value": "application/json" }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"productId\": \"itsclear-khapli-ancient\",\n  \"author\": \"Rahul Sharma\",\n  \"city\": \"Lucknow\",\n  \"rating\": 5,\n  \"comment\": \"Pure cold-stone ground taste, exactly like traditional chakki!\"\n}"
+            },
+            "url": {
+              "raw": "{{baseUrl}}/reviews",
+              "host": ["{{baseUrl}}"],
+              "path": ["reviews"]
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

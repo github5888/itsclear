@@ -1,0 +1,40 @@
+{
+  "api": {
+    "development": {
+      "iosSimulator": "http://localhost:5001/api",
+      "androidEmulator": "http://10.0.2.2:5001/api",
+      "physicalDevice": "http://<YOUR_LOCAL_IP>:5001/api"
+    },
+    "production": {
+      "baseUrl": "https://itsclear.in/api",
+      "imageBaseUrl": "https://itsclear.in"
+    },
+    "timeoutMs": 15000
+  },
+  "appConstants": {
+    "appName": "itsclear",
+    "appTagline": "100% Pure Stoneground Chakki Atta",
+    "currencySymbol": "₹",
+    "currencyCode": "INR",
+    "defaultDeliveryCity": "Lucknow",
+    "supportPhone": "+91 98980 12345",
+    "supportEmail": "support@itsclear.in",
+    "grainCoinValueInRupees": 1,
+    "signupBonusCoins": 250,
+    "freeDeliveryThreshold": 499,
+    "defaultDeliveryFee": 40
+  },
+  "storageKeys": {
+    "authToken": "itsclear_jwt_token",
+    "currentUser": "itsclear_user_data",
+    "cartItems": "itsclear_local_cart",
+    "savedAddress": "itsclear_default_shipping_address"
+  },
+  "orderStatusSteps": {
+    "confirmed": 1,
+    "milling": 2,
+    "quality_check": 3,
+    "out_for_delivery": 4,
+    "delivered": 5
+  }
+}
